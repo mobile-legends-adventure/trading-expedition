@@ -1,0 +1,70 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: #263e52 solid 4px;
+    border-radius: 20px;
+    justify-content: space-between;
+    height: calc(100vh - 20px);
+    box-sizing: border-box;
+}
+
+.ClassFilters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ClassFilters button:first-child {
+    border-radius: 14px 0 0 0;
+}
+
+.ClassFilters button:last-child {
+    border-radius: 0 14px 0 0;
+}
+
+.RarityFilters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Filters button {
+    padding: 5px 10px;
+    border: none;
+    background: #263e52;
+    color: white;
+    cursor: pointer;
+}
+
+.Container button.Active {
+    font-weight: bold;
+    background: white;
+    color: #263e52;
+    border-bottom: #263e52 solid 1px;
+}
+
+.Blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.Blocks::-webkit-scrollbar {
+    width: 10px;
+}
+
+.Blocks::-webkit-scrollbar-track {
+    background: rgba(38, 62, 82, 0.3);
+    border-radius: 5px;
+}
+
+.Blocks::-webkit-scrollbar-thumb {
+    background: rgba(38, 62, 82, 0.6);
+    border-radius: 10px;
+}
+
+.Blocks::-webkit-scrollbar-thumb:hover {
+    background: #263e52;
+}

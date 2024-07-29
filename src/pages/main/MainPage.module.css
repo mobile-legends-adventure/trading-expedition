@@ -1,0 +1,9 @@
+.Container {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.Container h1 {
+    text-align: center;
+    color: #263e52;
+}
