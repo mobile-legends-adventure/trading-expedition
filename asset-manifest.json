@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trading-expedition/static/css/main.fb79bedd.css",
+    "main.js": "/trading-expedition/static/js/main.4a8590e0.js",
+    "index.html": "/trading-expedition/index.html",
+    "main.fb79bedd.css.map": "/trading-expedition/static/css/main.fb79bedd.css.map",
+    "main.4a8590e0.js.map": "/trading-expedition/static/js/main.4a8590e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb79bedd.css",
+    "static/js/main.4a8590e0.js"
+  ]
+}
